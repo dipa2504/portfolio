@@ -1,0 +1,69 @@
+.container {
+  border-bottom: 1px solid #1a202c;
+  padding-bottom: 1rem;
+}
+
+.heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.year {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+@media (min-width: 1024px) {
+  .year {
+    width: 25%;
+  }
+}
+
+.details {
+  width: 100%;
+  max-width: 40rem;
+}
+
+@media (min-width: 1024px) {
+  .details {
+    width: 75%;
+  }
+}
+
+.role {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.company {
+  font-size: 0.875rem;
+  color: #d6bcfa;
+}
+
+.description {
+  margin-bottom: 1rem;
+  color: #718096;
+}
+
+.tech {
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: #1a202c;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b46c1;
+}
